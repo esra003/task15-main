@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Roboto;
+    src: url('assets/fonts/RobotoSlab-Regular\ \(1\).ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    font-style: inherit;
+    color: black;
+}
+
+
+body {
+    font-family: Roboto;
+}
+
+main{
+    padding: 56px 36px;
+}
+.class1{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 60.36px;
+}
+
+.class2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.class2 div p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+
+.class2 img{
+    width: 170px;
+    height: 160px;
+    margin-top: 20px;
+}
+img{
+    width: 315 px;
+    height: 314 px ;
+}
+.class3{
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.class3 ul{
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+}
+
+.class3 ul li{
+    min-width: 87px;
+    width: 87px;
+    flex-shrink: 1;
+}
+
+.class3 ul li h3{
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 700;
+}
+
+.class3 ul li p{
+    font-size: 10px;
+    line-height: 15.6px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.class3 img{
+    display: none;
+}
+
+@media (min-width: 840px){
+    main{
+        padding: 56px 72px;
+    }
+
+    .class1{
+        font-size: 32px;
+        line-height: 50.44px;
+    }
+    
+    .class2{
+        margin-top: 40px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .class2 div{
+        width: 383px;
+    }
+    
+    .class2 div p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .class2 img{
+        width: 182px;
+        height: 182px;
+        margin-top: 0px;
+    }
+    
+    .class3{
+        margin-top: 70px;
+    }
+    
+    .class3 ul{
+        gap: 55px;
+    }
+    
+    .class3 ul li{
+        min-width: 108px;
+        width: 108px;
+    }
+    
+    .class3 ul li h3{
+        font-size: 15px;
+        line-height: 19.6px;
+        font-weight: 700;
+    }
+    
+    .class3 ul li p{
+        font-size: 11px;
+        line-height: 14.6px;
+        font-weight: 400;
+        margin-top: 2px;
+    }
+
+}
+
+@media (min-width: 1440px){
+    main{
+        padding: 91px 124px;
+    }
+    
+    .class1{
+        font-size: 55px;
+        line-height: 70.44px;
+    }
+
+    .class2{
+        margin-top: 50px;
+    }
+    
+
+    .class2 div{
+        width: 662px;
+    }
+    
+    .class2 div p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .class3 img{
+        width: 315px;
+        height: 315px;
+    }
+    
+    .class3{
+        margin-top: 90px;
+        align-items: center;
+    }
+    
+    .class3 ul{
+        gap: 95px;
+        flex-wrap: nowrap;
+        margin-left: 132px;
+    }
+    
+    .class3 ul li{
+        min-width: 150px;
+        width: 150px;
+    }
+    
+    .class3 ul li h3{
+        font-size: 25px;
+        line-height: 32.6px;
+    }
+    
+    .class3 ul li p{
+        font-size: 18px;
+        line-height: 23.6px;
+        margin-top: 2px;
+    }
+    .class3 img{
+        display: inline-block;
+    }
+}
